@@ -13,31 +13,40 @@
             <a href="">CARA CARA</a>
             <img src="./assets/icons8-pottery-96 (1).png" alt="white pottery icon">
             <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>PRODUCTS</li>
-                <li>CONTACT</li>
+                <li>
+                    <a href="#home">HOME</a>
+                </li>
+                <li>
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#products">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="#contact">CONTACT</a>
+                </li>
                 <li>CART</li>   <!-- NEED A COUNTER FOR # ITEMS IN CART-->
                 <li></li><form action="">
                     <input type="text" id="search_input" name="search_bar">
-                    <button><img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="magifying glass: search"></button>
+
+                    <button><img  class="imageTemp" src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="magifying glass: search"></button>
                 </form></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <ul>
                 <li>CERAMICS CRAFTED BY HAND...</li>
                 <li>...FROM THE GROUND UP</li>
             </ul>
-            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hands making pottery on pottery wheel">
+            <img class="imageTemp"  src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hands making pottery on pottery wheel">
         </section>
 
-        <section class="about">
-            <img src="./assets/Vase_Dame_2048x2048.jpg" alt="white flowers with dark green leaves in white vase">    
-            <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="dried wheat in white vase"> <!--NEED TO FLIP THIS - MIRROR -->
+        <section class="about" id="about">
+            <img  class="imageTemp" src="./assets/Vase_Dame_2048x2048.jpg" alt="white flowers with dark green leaves in white vase">    
+            <img   class="imageTemp" src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="dried wheat in white vase"> <!--NEED TO FLIP THIS - MIRROR -->
             <h1>ABOUT US</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -70,13 +79,14 @@
             </p>
         </section>
 
-        <section class="products">   
-            <h2>OUR PRODUCTS</h2>
-            <main class="product_clips">
-                <div class="card">
-                    <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="two small gray bowls, one large white bowl">
-                    <p>MUNDO BOWLS</p>
-                    <P>$48.00</P>
+        <section class="products" id="products">   
+            <h1>OUR PRODUCTS</h1>
+            <main>
+                <div  class="product_clips" >
+                   <div class="card">
+                    <img  class="imageTemp" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="two small gray bowls, one large white bowl">
+                    <h2>MUNDO BOWLS</h2>
+                    <h2>$48.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -86,9 +96,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="red vase">
-                    <p>NATUREZA VASE</p>
-                    <P>$37.00</P>
+                    <img  class="imageTemp" src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="red vase">
+                    <h2>NATUREZA VASE</h2>
+                    <h2>$37.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -98,9 +108,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="two white bowls">
-                    <p>FEIRA BOWLS</p>
-                    <P>$29.00</P>
+                    <img  class="imageTemp" src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="two white bowls">
+                    <h2>FEIRA BOWLS</h2>
+                    <h2>$29.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -110,9 +120,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
-                    <p>NATUREZA POTS</p>
-                    <P>$59.00</P>
+                    <img  class="imageTemp" src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
+                    <h2p>NATUREZA POTS</h2>
+                    <h2>$59.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -122,9 +132,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="white vase filled with green leaves">
-                    <p>PEDRA VASE</p>
-                    <P>$31.00</P>
+                    <img  class="imageTemp" src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="white vase filled with green leaves">
+                    <h2>PEDRA VASE</h2>
+                    <h2>$31.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -134,9 +144,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
-                    <p>VIAJA POTS</p>
-                    <P>$57.00</P>
+                    <img  class="imageTemp" src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
+                    <h2>VIAJA POTS</h2>
+                    <h2>$57.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -146,9 +156,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="four white plates">
-                    <p>SERVIÇO PLATES</p>
-                    <P>$35.00</P>
+                    <img class="imageTemp"  src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="four white plates">
+                    <h2>SERVIÇO PLATES</h2>
+                    <h2>$35.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -158,9 +168,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="blue vase">
-                    <p>CAMPEÃO VASEE</p>
-                    <P>$37.00</P>
+                    <img  class="imageTemp" src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="blue vase">
+                    <h2>CAMPEÃO VASEE</h2>
+                    <h2>$37.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -170,9 +180,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="five white bowls">
-                    <p>TROCA BOWLS</p>
-                    <P>$25.00</P>
+                    <img  class="imageTemp" src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="five white bowls">
+                    <h2>TROCA BOWLS</h2>
+                    <h2>$25.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
                         commodo quis imperdiet massa. Amet
@@ -180,12 +190,14 @@
                         egestas pretium aenean.</p>
                     <a href="">LEARN MORE</a>
                     <button>ADD TO CART</button>
+                </div>  
                 </div>
+               
             </main>
         </section>
 
-        <section class="contact">
-            <h3>CONTACT US</h3>
+        <section class="contact" id="contact">
+            <h1>CONTACT US</h1>
             <form action="">
                 <label for="email_input">EMAIL</label><br>
                     <input type="text" id="email_input" name="email">
