@@ -6,33 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARA CARA eComm Project</title>
     <link rel="stylesheet" href="./main.css">
+
 </head>
 <body>
     <header>
         <nav>
-            <a href="">CARA CARA</a>
-            <img src="./assets/icons8-pottery-96 (1).png" alt="white pottery icon">
+            <h1>
+                CARA<img src="./assets/icons8-pottery-96.png" alt="orange pottery icon" width="50px">CARA
+            </h1>
             <ul>
                 <li>
-                    <a href="#home">HOME</a>
+                    <a href="#home" class="nav_left">HOME</a>
                 </li>
                 <li>
-                    <a href="#about">ABOUT</a>
+                    <a href="#about" class="nav_left">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#products">PRODUCTS</a>
+                    <a href="#products" class="nav_left">PRODUCTS</a>
                 </li>
                 <li>
-                    <a href="#contact">CONTACT</a>
+                    <a href="#contact" class="nav_left">CONTACT</a>
                 </li>
-                <li>CART</li>   <!-- NEED A COUNTER FOR # ITEMS IN CART-->
-                <li></li><form action="">
+                <li class="nav_right">CART (0)</li>
+                </li>   
+                <li><form action="" class="search_icon">
                     <input type="text" id="search_input" name="search_bar">
-
-                    <button><img  class="imageTemp" src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="magifying glass: search"></button>
-                </form></li>
+                    <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="small magnifying glass">
+                </li></form>
             </ul>
         </nav>
+        <hr>
     </header>
 
     <main>
@@ -45,9 +48,10 @@
         </section>
 
         <section class="about" id="about">
-            <img  class="imageTemp" src="./assets/Vase_Dame_2048x2048.jpg" alt="white flowers with dark green leaves in white vase">    
-            <img   class="imageTemp" src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="dried wheat in white vase"> <!--NEED TO FLIP THIS - MIRROR -->
             <h1>ABOUT US</h1>
+            <hr>
+            <img  class="aboutimage2" src="./assets/Vase_Dame_2048x2048.jpg" alt="white flowers with dark green leaves in white vase">    
+            <img   class="aboutimage1" src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="dried wheat in white vase"> <!--NEED TO FLIP THIS - MIRROR -->
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
@@ -81,10 +85,11 @@
 
         <section class="products" id="products">   
             <h1>OUR PRODUCTS</h1>
+            <hr>
             <main>
                 <div  class="product_clips" >
                    <div class="card">
-                    <img  class="imageTemp" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="two small gray bowls, one large white bowl">
+                    <img  class="productimage" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="two small gray bowls, one large white bowl">
                     <h2>MUNDO BOWLS</h2>
                     <h2>$48.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -96,7 +101,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img  class="imageTemp" src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="red vase">
+                    <img  class="productimage" src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="red vase">
                     <h2>NATUREZA VASE</h2>
                     <h2>$37.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -108,7 +113,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img  class="imageTemp" src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="two white bowls">
+                    <img  class="productimage" src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="two white bowls">
                     <h2>FEIRA BOWLS</h2>
                     <h2>$29.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -120,7 +125,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img  class="imageTemp" src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
+                    <img  class="productimage" src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
                     <h2p>NATUREZA POTS</h2>
                     <h2>$59.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -132,7 +137,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img  class="imageTemp" src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="white vase filled with green leaves">
+                    <img  class="productimage" src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="white vase filled with green leaves">
                     <h2>PEDRA VASE</h2>
                     <h2>$31.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -144,7 +149,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img  class="imageTemp" src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
+                    <img  class="productimage" src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="two cylindrical gray containers with lids, one has lid off">
                     <h2>VIAJA POTS</h2>
                     <h2>$57.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -156,7 +161,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img class="imageTemp"  src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="four white plates">
+                    <img class="productimage"  src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="four white plates">
                     <h2>SERVIÇO PLATES</h2>
                     <h2>$35.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -168,7 +173,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img  class="imageTemp" src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="blue vase">
+                    <img  class="productimage" src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="blue vase">
                     <h2>CAMPEÃO VASEE</h2>
                     <h2>$37.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -180,7 +185,7 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
-                    <img  class="imageTemp" src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="five white bowls">
+                    <img  class="productimage" src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="five white bowls">
                     <h2>TROCA BOWLS</h2>
                     <h2>$25.00</h2>
                     <p>Tincidunt praesent semper feugiat nibh
@@ -198,6 +203,7 @@
 
         <section class="contact" id="contact">
             <h1>CONTACT US</h1>
+            <hr>
             <form action="">
                 <label for="email_input">EMAIL</label><br>
                     <input type="text" id="email_input" name="email">
@@ -211,18 +217,20 @@
     </main>
 
     <footer>
-        <ul>
-            <li>CARA </li>
-            <li><img src="./assets/icons8-pottery-96 (1).png" alt="white pottery icon"></li>
-            <li> CARA</li>
-            <li>Pretium nibh ipsum consequat nisl vel pretium.</li>
-            <li>Amet tellus cras adipiscing enim eu turpis.</li>
-            <li>©Copyright 2015 - 2020</li>
-            <li><img src="./assets/icons8-youtube-96.png" alt="YouTube button"></li>
-            <li><img src="./assets/icons8-facebook-96 (1).png" alt="Facebook button"</li>
-            <li><img src="./assets/icons8-twitter-96.png" alt="Twitter button"></li>
-            <li><img src="./assets/icons8-instagram-96.png" alt="Instagram button"></li>
-        </ul>
+        <div>
+            <h1>
+                CARA<img src="./assets/icons8-pottery-96 (1).png" alt="white pottery icon" width="50px">CARA
+            </h1>
+            <ul>
+                <li class="footer_words">Pretium nibh ipsum consequat nisl vel pretium.</li>
+                <li class="footer_words">Amet tellus cras adipiscing enim eu turpis.</li>
+                <li class="copyright">©Copyright 2015 - 2020</li>
+            </ul>
+            <a href="" class="footer_image"><img src="./assets/icons8-youtube-96.png" alt="YouTube button"></a>
+            <a href="" class="footer_image"><img src="./assets/icons8-facebook-96 (1).png" alt="Facebook button"></a>
+            <a href="" class="footer_image"><img src="./assets/icons8-twitter-96.png" alt="Twitter button"></a>
+            <a href="" class="footer_image"><img src="./assets/icons8-instagram-96.png" alt="Instagram button"></a>
+        </div>
     </footer>
 </body>
 </html>
