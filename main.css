@@ -86,22 +86,44 @@ nav a:visited{
 .home{
   color: white;
   background-color: black;
-  margin: 2rem;
+  margin: 1rem;
+  height: 1000px;
+  width: 100%;
 }
+
+.home{
+  background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+  background-repeat: none;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.home li{
+  display: inline;
+  margin: 0.5rem;
+  top: 0.5rem;
+  list-style-type: none;
+}
+
+.home_left{
+  text-align: start;
+  word-wrap: break-word;
+}
+
 
 .aboutimage1{
   float: right;
   width: 250px;
   height: 300px;
   transform: scaleX(-1);
-  padding: 1rem;
+  margin-left: 2.5rem;
 }
 
 .aboutimage2{
   float: left;
   width: 120px;
   height: 150px;
-  padding: 1rem;
+  margin-right: 2.5rem;
 }
 
 .product_clips {
